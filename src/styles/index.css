@@ -1,12 +1,46 @@
-
-/* 
-
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
-
-*/
+body{
+    background-color: rgb(175, 196, 203);
+    height: 100vh;
+}
+#app{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.up{
+    background-color: black;
+    margin: auto;
+    height: 100px;
+    width: 30px;
+}
+.semaforo{
+    width: 250px;
+    background-color: rgb(43, 41, 41);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 50px;
+}
+.light{
+    background-color: white;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 20px;
+}
+.red{
+    background-color: red;
+}
+.yellow{
+    background-color: yellow;
+}
+.green{
+    background-color: green;
+}
+.on{
+    box-shadow: 0 0 40px white;
+}
+.boton{
+    margin-left: 70px;
+    margin-top: 7px;
+}
